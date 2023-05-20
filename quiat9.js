@@ -1,5 +1,5 @@
 //YBYB:Created from iat8.js, for Qualtrics
-define(['pipAPI','pipScorer','underscore','https://boliangzhu.github.io/iat/quiat9.js'], function(APIConstructor, Scorer, _) {
+define(['pipAPI','https://boliangzhu.github.io/iat/quiat9.js'], function(APIConstructor, Scorer, _) {
 
 	/**
 	Created by: Yoav Bar-Anan (baranan@gmail.com). Modified by Gal
