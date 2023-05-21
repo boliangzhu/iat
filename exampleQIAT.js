@@ -39,7 +39,7 @@ define(['pipAPI', 'https://boliangzhu.github.io/iat/exampleQIAT.js'], function(A
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://boliangzhu.github.io/iat/'
 		} 
 	});
 });
