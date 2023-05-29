@@ -10,12 +10,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/boliangzhu/iat@main/TrialTestBase
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    {image : 'chi1.jpg'}, 
+    			{image : 'chi2.jpg'}, 
+    			{image : 'chi3.jpg'}, 
+    			{image : 'chi4.jpg'}, 
+    			{image : 'chi5.jpg'}, 
+    			{image : 'chi6.jpg'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -28,18 +28,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/boliangzhu/iat@main/TrialTestBase
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
-    			{image : 'yf5.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}, 
-    			{image : 'ym5.jpg'}			], 
+    		    {image : 'euro1.jpg'}, 
+    			{image : 'euro2.jpg'}, 
+    			{image : 'euro3.jpg'}, 
+    			{image : 'euro4.jpg'}, 
+    			{image : 'euro5.jpg'}, 
+    			{image : 'euro6.jpg'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://boliangzhu.github.io/iat/'
 		} 
 	});
 });
