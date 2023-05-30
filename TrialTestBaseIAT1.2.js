@@ -33,79 +33,83 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
-				name : 'Chinese', //Will appear in the data and in the default feedback message.
+				name : 'Chinese American', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Chinese'}, //Name of the category presented in the task.
+					media : {word : 'Chinese American'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Tyron'},
-					{word: 'Malik'},
-					{word: 'Terrell'},
-					{word: 'Jazmin'},
-					{word: 'Tiara'},
-					{word: 'Shanice'}
+					{word: 'ChineseAmerian1'},
+					{word: 'ChineseAmerian2'},
+					{word: 'ChineseAmerian3'},
+					{word: 'ChineseAmerian4'},
+					{word: 'ChineseAmerian5'},
+					{word: 'ChineseAmerian6'},
+					{word: 'ChineseAmerian7'},
+					{word: 'ChineseAmerian8'}
 				],
 				//Stimulus css (style)
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			category2 :	{
-				name : 'White people', //Will appear in the data and in the default feedback message.
+				name : 'European American', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'White people'}, //Name of the category presented in the task.
+					media : {word : 'European American'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Jake'},
-					{word: 'Connor'},
-					{word: 'Bradley'},
-					{word: 'Allison'},
-					{word: 'Emma'},
-					{word: 'Emily'}
+					{word: 'EuropeanAmerican1'},
+					{word: 'EuropeanAmerican2'},
+					{word: 'EuropeanAmerican3'},
+					{word: 'EuropeanAmerican4'},
+					{word: 'EuropeanAmerican5'},
+					{word: 'EuropeanAmerican6'},
+					{word: 'EuropeanAmerican7'},
+					{word: 'EuropeanAmerican8'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			attribute1 :
 			{
-				name : 'Bad words',
+				name : 'Bad',
 				title : {
-					media : {word : 'Bad words'},
+					media : {word : 'Bad'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'awful'},
-					{word: 'failure'},
-					{word: 'agony'},
-					{word: 'hurt'},
-					{word: 'horrible'},
-					{word: 'terrible'},
-					{word: 'nasty'},
-					{word: 'evil'}
+					{word: 'Tragic'},
+					{word: 'Horrible'},
+					{word: 'Agony'},
+					{word: 'Painful'},
+					{word: 'Terrible'},
+					{word: 'Awful'},
+					{word: 'Humiliate'},
+					{word: 'Nasty'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
-				name : 'Good words',
+				name : 'Good',
 				title : {
-					media : {word : 'Good words'},
+					media : {word : 'Good'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'laughter'},
-					{word: 'happy'},
-					{word: 'glorious'},
-					{word: 'joy'},
-					{word: 'wonderful'},
-					{word: 'peace'},
-					{word: 'pleasure'},
-					{word: 'love'}
+					{word: 'Marvelous'},
+					{word: 'Superb'},
+					{word: 'Pleasure'},
+					{word: 'Beautiful'},
+					{word: 'Joyful'},
+					{word: 'Glorious'},
+					{word: 'Lovely'},
+					{word: 'Wonderful'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
