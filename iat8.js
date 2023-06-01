@@ -1,4 +1,4 @@
-define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
+define(['pipAPI','https://cdn.jsdelivr.net/gh/boliangzhu/iat@main/iat8.js','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
 
 	/**
 	Created by: Yoav Bar-Anan (baranan@gmail.com). Modified by Elad
